@@ -6,6 +6,17 @@
   background-color: rgba(255, 255, 255, 0.5);
   padding: 15px;
 }
+.navbar-brand {
+  font-weight: bold;
+  font-style: italic;
+}
+span {
+  color: #bc8d4b;
+}
+.nav-opacity a:hover {
+  color: #bc8d4b;
+}
+
 .body-header {
   text-align: center;
   line-height: 30px;
@@ -218,13 +229,7 @@ h6 {
   transition: all 200ms ease-in-out;
   color: #fff;
 }
-span {
-  color: #bc8d4b;
-}
-.navbar-brand {
-  font-weight: bold;
-  font-style: italic;
-}
+
 .developed-by {
   color: #bc8d4b;
 }
