@@ -1,5 +1,5 @@
-.containner {
-  max-width: 1300px;
+.container {
+  max-width: fit-content;
   margin: 0 auto;
 }
 .nav-opacity {
