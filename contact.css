@@ -10,6 +10,13 @@ span {
   color: #bc8d4b;
 }
 
+.nav-link {
+  color: black;
+}
+#link-active {
+  color: #bc8d4b;
+}
+
 h1,
 h2,
 h3,
@@ -31,6 +38,9 @@ h2 small {
 body {
   font-family: "Times-Roman", "serif";
 }
+.contact-image {
+  margin-top: 80px;
+}
 p {
   line-height: 30px;
   letter-spacing: 0.2px;
@@ -44,4 +54,185 @@ h1 {
   font-size: 24px;
   font-family: "Montserrat", "sans-serif";
   margin: 0;
+}
+.socials a {
+  color: #bc8d4b;
+}
+.links span {
+  padding-left: 10px;
+  color: black;
+}
+label {
+  font-size: 10px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  color: #858585;
+
+  font-weight: 400;
+}
+select {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 13px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  height: 50px;
+  width: 300px;
+  border: 1px solid #333;
+  padding-left: 15px;
+  transition: all 150ms ease-in-out;
+}
+select:hover {
+  box-shadow: inset 0 0 0 3px #333;
+}
+input {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 13px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  height: 50px;
+  width: 300px;
+  border: 1px solid #333;
+  padding-left: 15px;
+  transition: all 150ms ease-in-out;
+}
+input:hover {
+  box-shadow: inset 0 0 0 3px #333;
+}
+textarea {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 13px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  padding-left: 15px;
+  width: 300px;
+  border: 1px solid #333;
+  transition: all 150ms ease-in-out;
+}
+textarea:hover {
+  box-shadow: inset 0 0 0 3px #333;
+}
+.form-button a {
+  background-color: #333;
+
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+}
+footer p {
+  color: #bababa;
+  transition: 0.15s ease-in-out;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+}
+footer p:hover {
+  color: white;
+}
+
+.footer-button a {
+  background: none;
+  border: 5px solid white;
+  color: white;
+  padding: 10px 60px 8px;
+  text-decoration: none;
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  transition: all 150ms ease-in-out;
+}
+.footer-button a:hover {
+  box-shadow: inset 0 0 0 3px white;
+}
+.footer {
+  background-color: #1a1915;
+}
+footer {
+  padding: 50px;
+
+  color: white;
+}
+footer small a {
+  text-decoration: none;
+}
+.social-links a {
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+  margin: 5px;
+}
+@media (max-width: 1250px) {
+  .footer-button a {
+    padding: 8px 12px;
+  }
+  .aloe-vera-image {
+    padding-top: 50px;
+  }
+  .last-section {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 1000px) {
+  .footer-button a {
+    padding: 5px 5px;
+  }
+  .owner-description {
+    padding-top: 150px;
+  }
+  .giftcard-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .giftcard-paragrah {
+    padding-top: 18px;
+  }
+  .aloe-vera-image {
+    padding-top: 90px;
+  }
+  .last-section {
+    padding-bottom: 40px;
+  }
+}
+@media (max-width: 766px) {
+  .footer-button a {
+    padding: 10px 60px 8px;
+  }
+  .phone {
+    color: white;
+  }
+  .owner-description {
+    padding-top: 20px;
+  }
+  .food-project-image {
+    padding-top: 25px;
+  }
+
+  .giftcard-paragrah {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+  .aloe-vera-image {
+    padding-top: 20px;
+  }
+  .last-section-paragraph {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 399px) {
+  .footer-button a {
+    padding: 10px 20px;
+  }
+  .phone {
+    color: white;
+  }
 }

@@ -2,9 +2,7 @@
   background-color: rgba(255, 255, 255, 0.5);
   padding: 15px;
 }
-.navbar-toggler-icon {
-  background-color: #bc8d4b;
-}
+
 .navbar-brand {
   font-weight: bold;
   font-style: italic;
@@ -80,6 +78,9 @@ span {
 }
 .last-section {
   background-color: #eeeae1;
+}
+.menus {
+  margin-top: 80px;
 }
 footer p {
   color: #bababa;
