@@ -95,6 +95,9 @@ footer small a {
   padding: 5px;
   margin: 5px;
 }
+span {
+  color: #bc8d4b;
+}
 @media (max-width: 1250px) {
   .footer-button a {
     padding: 8px 12px;
