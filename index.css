@@ -39,11 +39,10 @@ span {
   color: #bc8d4b;
 }
 .image-section img {
-  margin: 12px;
   width: 100%;
 }
 .owner-description {
-  padding-top: 200px;
+  padding-top: 180px;
 }
 .owner-section {
   background-color: #f4f4f4;
@@ -101,10 +100,12 @@ footer p:hover {
 .footer-button a:hover {
   box-shadow: inset 0 0 0 3px white;
 }
-
+.footer {
+  background-color: #1a1915;
+}
 footer {
   padding: 50px;
-  background-color: #1a1915;
+
   color: white;
 }
 footer small a {
@@ -114,25 +115,70 @@ footer small a {
   color: white;
   border: 2px solid white;
   padding: 3px;
-  margin: 2px;
+  margin: 3px;
 }
 @media (max-width: 1250px) {
   .footer-button a {
     padding: 8px 12px;
+  }
+  .aloe-vera-image {
+    padding-top: 50px;
+  }
+  .last-section {
+    padding-bottom: 30px;
   }
 }
 @media (max-width: 1000px) {
   .footer-button a {
     padding: 5px 5px;
   }
+  .owner-description {
+    padding-top: 150px;
+  }
+  .giftcard-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .giftcard-paragrah {
+    padding-top: 18px;
+  }
+  .aloe-vera-image {
+    padding-top: 90px;
+  }
+  .last-section {
+    padding-bottom: 40px;
+  }
 }
 @media (max-width: 766px) {
   .footer-button a {
     padding: 10px 60px 8px;
   }
+  .phone {
+    color: white;
+  }
+  .owner-description {
+    padding-top: 20px;
+  }
+  .food-project-image {
+    padding-top: 25px;
+  }
+
+  .giftcard-paragrah {
+    padding-bottom: 20px;
+    padding-top: 50px;
+  }
+  .aloe-vera-image {
+    padding-top: 20px;
+  }
+  .last-section-paragraph {
+    padding-bottom: 50px;
+  }
 }
-@media (max-width: 400px) {
+@media (max-width: 399px) {
   .footer-button a {
     padding: 10px 20px;
+  }
+  .phone {
+    color: white;
   }
 }
