@@ -6,6 +6,7 @@
 .navbar-brand {
   font-weight: bold;
   font-style: italic;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 .nav-link {
   color: black;
@@ -19,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
@@ -40,12 +41,10 @@ p {
   margin: 0;
 }
 .small-about {
-  padding-top: 100px;
-}
-.our-story {
   padding-top: 130px;
-  font-weight: 900;
+  color: #bc8d4b;
 }
+
 .philosophy-image {
   height: 500px;
   width: 100%;
@@ -68,7 +67,7 @@ footer p:hover {
   color: white;
   padding: 10px 60px 8px;
   text-decoration: none;
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
@@ -102,32 +101,10 @@ span {
   .footer-button a {
     padding: 8px 12px;
   }
-  .aloe-vera-image {
-    padding-top: 50px;
-  }
-  .last-section {
-    padding-bottom: 30px;
-  }
 }
 @media (max-width: 1000px) {
   .footer-button a {
     padding: 5px 5px;
-  }
-  .owner-description {
-    padding-top: 150px;
-  }
-  .giftcard-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .giftcard-paragrah {
-    padding-top: 18px;
-  }
-  .aloe-vera-image {
-    padding-top: 90px;
-  }
-  .last-section {
-    padding-bottom: 40px;
   }
 }
 @media (max-width: 766px) {
@@ -136,23 +113,6 @@ span {
   }
   .phone {
     color: white;
-  }
-  .owner-description {
-    padding-top: 20px;
-  }
-  .food-project-image {
-    padding-top: 25px;
-  }
-
-  .giftcard-paragrah {
-    padding-bottom: 20px;
-    padding-top: 50px;
-  }
-  .aloe-vera-image {
-    padding-top: 20px;
-  }
-  .last-section-paragraph {
-    padding-bottom: 50px;
   }
 }
 @media (max-width: 399px) {

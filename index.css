@@ -6,6 +6,7 @@
 .navbar-brand {
   font-weight: bold;
   font-style: italic;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 .nav-link {
   color: black;
@@ -19,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
@@ -60,7 +61,7 @@ span {
   color: #333;
   padding: 10px 60px 8px;
   text-decoration: none;
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
@@ -100,7 +101,7 @@ footer p:hover {
   color: white;
   padding: 10px 60px 8px;
   text-decoration: none;
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;

@@ -5,6 +5,7 @@
 .navbar-brand {
   font-weight: bold;
   font-style: italic;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 span {
   color: #bc8d4b;
@@ -23,7 +24,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   margin: 0;
@@ -38,23 +39,16 @@ h2 small {
 body {
   font-family: "Times-Roman", "serif";
 }
-.contact-image {
-  margin-top: 80px;
-}
+
 p {
   line-height: 30px;
   letter-spacing: 0.2px;
   margin: 0;
 }
 h1 {
-  padding-top: 180px;
+  padding-top: 130px;
 }
-#sub-header {
-  font-weight: 700;
-  font-size: 24px;
-  font-family: "Montserrat", "sans-serif";
-  margin: 0;
-}
+
 .socials a {
   color: #bc8d4b;
 }
@@ -71,7 +65,7 @@ label {
   font-weight: 400;
 }
 select {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 13px;
   line-height: 26px;
   letter-spacing: 0.5px;
@@ -86,7 +80,7 @@ select:hover {
   box-shadow: inset 0 0 0 3px #333;
 }
 input {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 13px;
   line-height: 26px;
   letter-spacing: 0.5px;
@@ -101,7 +95,7 @@ input:hover {
   box-shadow: inset 0 0 0 3px #333;
 }
 textarea {
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 13px;
   line-height: 26px;
   letter-spacing: 0.5px;
@@ -120,7 +114,7 @@ textarea:hover {
   color: white;
   padding: 15px 30px;
   text-decoration: none;
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
@@ -144,7 +138,7 @@ footer p:hover {
   color: white;
   padding: 10px 60px 8px;
   text-decoration: none;
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   font-size: 14px;
   line-height: 22px;
@@ -175,32 +169,10 @@ footer small a {
   .footer-button a {
     padding: 8px 12px;
   }
-  .aloe-vera-image {
-    padding-top: 50px;
-  }
-  .last-section {
-    padding-bottom: 30px;
-  }
 }
 @media (max-width: 1000px) {
   .footer-button a {
     padding: 5px 5px;
-  }
-  .owner-description {
-    padding-top: 150px;
-  }
-  .giftcard-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .giftcard-paragrah {
-    padding-top: 18px;
-  }
-  .aloe-vera-image {
-    padding-top: 90px;
-  }
-  .last-section {
-    padding-bottom: 40px;
   }
 }
 @media (max-width: 766px) {
@@ -209,23 +181,6 @@ footer small a {
   }
   .phone {
     color: white;
-  }
-  .owner-description {
-    padding-top: 20px;
-  }
-  .food-project-image {
-    padding-top: 25px;
-  }
-
-  .giftcard-paragrah {
-    padding-bottom: 20px;
-    padding-top: 50px;
-  }
-  .aloe-vera-image {
-    padding-top: 20px;
-  }
-  .last-section-paragraph {
-    padding-bottom: 50px;
   }
 }
 @media (max-width: 399px) {
