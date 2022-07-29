@@ -108,6 +108,9 @@ span {
   }
 }
 @media (max-width: 766px) {
+  .philosophy-image {
+    height: 300px;
+  }
   .footer-button a {
     padding: 10px 60px 8px;
   }
